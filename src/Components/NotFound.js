@@ -1,10 +1,7 @@
-function NotFound(){
-    return (
-        <div>
-            This page is Not Found.
-        </div>
+import React from 'react'
 
-    );
+export default function NotFound() {
+  return (
+    <div>NotFound</div>
+  )
 }
-
-export default Home;
